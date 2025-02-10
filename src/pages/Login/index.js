@@ -2,7 +2,6 @@ import "./login.scss"
 import logo from "../../styles/images/logo.png"
 import { FaCircleUser , FaLock  } from "react-icons/fa6";
 import { Checkbox , Button} from 'antd';
-import { useNavigate } from "react-router-dom";
 const Login = ()=>{
    
     // onchange remember me checkbox
@@ -60,7 +59,7 @@ const Login = ()=>{
 
                         </div> 
                         <Button type="primary" style={{width : "200px" , marginTop : '15px' , textAlign:'center'}} >Đăng nhập</Button>
-                        <p>Bạn chưa có tài khoản ? <a href="/">Tạo mới </a></p>
+                        <p>Bạn chưa có tài khoản ? <a href="/signup">Tạo mới </a></p>
 
 
 
